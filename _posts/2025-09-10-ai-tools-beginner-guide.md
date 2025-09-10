@@ -6,6 +6,8 @@ categories: [AI, 入门]
 tags: [AI, 新手教程, 提示工程, 工作流]
 author: Curry Stark
 excerpt: 一篇面向新手的 AI 工具入门教程，覆盖账户准备、常见工具选择、基础提示语写法与日常工作流。
+header:
+  teaser: /assets/images/teaser-default.svg
 ---
 
 这是一篇面向新手的快速入门教程，目标是在 30 分钟内搭建起「能用、好用」的 AI 工作流。

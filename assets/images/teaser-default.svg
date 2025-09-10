@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Curry Stark - Blog Teaser">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eaf4ff"/>
+      <stop offset="100%" stop-color="#3aa0ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="420" fill="url(#g)"/>
+  <g fill="#ffffff" opacity="0.15">
+    <circle cx="680" cy="60" r="90"/>
+    <circle cx="140" cy="360" r="70"/>
+  </g>
+  <g>
+    <text x="40" y="240" font-family="Inter, 'Noto Sans SC', system-ui, Arial, sans-serif" font-size="42" fill="#ffffff" font-weight="700">Curry Stark</text>
+    <text x="40" y="290" font-family="Inter, 'Noto Sans SC', system-ui, Arial, sans-serif" font-size="22" fill="#ffffff" opacity="0.9">Blog • 技术与效率</text>
+  </g>
+</svg> 

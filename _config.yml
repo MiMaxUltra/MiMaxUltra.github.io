@@ -25,7 +25,7 @@ description              : "Curry Stark 的个人博客"
 url                      : "https://MiMaxUltra.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : MiMaxUltra/MiMaxUltra.github.io
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/teaser-default.svg" # default teaser for posts
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)

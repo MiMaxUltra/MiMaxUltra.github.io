@@ -6,6 +6,8 @@ categories: [AI, 编程效率]
 tags: [GitHub Copilot, ChatGPT, 编码, 代码审查]
 author: Curry Stark
 excerpt: 结合 GitHub Copilot 与 GPT 的开发工作流：从需求澄清、编码、测试到代码评审与文档生成。
+header:
+  teaser: /assets/images/teaser-default.svg
 ---
 
 ## 环境准备

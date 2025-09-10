@@ -6,6 +6,8 @@ categories: [AI, 提示工程]
 tags: [提示工程, 提示模板, 实战]
 author: Curry Stark
 excerpt: 面向实际工作的提示工程速查表，覆盖角色、格式、约束、思维链、校验与迭代。
+header:
+  teaser: /assets/images/teaser-default.svg
 ---
 
 ## 通用结构
