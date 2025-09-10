@@ -114,4 +114,10 @@ blockquote {
   .page,
   .post { max-width: 92%; }
   .masthead__menu a { font-size: 0.9rem; }
+}
+
+/* Search input sizing overrides */
+.search-content .search-input,
+.layout--search .search-input {
+  font-size: 1rem !important;
 } 
