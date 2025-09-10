@@ -93,8 +93,8 @@ analytics:
 # Site Author
 author:
   name             : "Curry Stark"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "传统男性，分享 AI 实用教程与效率技巧。"
+  avatar           : "/assets/images/avatar.png"
+  bio              : "分享 AI 实用教程与效率技巧。"
   location         : "中国 北京"
   email            : "mijit2003@gmail.com"
   links:
