@@ -2,28 +2,29 @@
 
 /* Base typography */
 html {
-  font-size: 15px; /* slightly smaller than default */
+  font-size: 14.5px; /* 紧凑基础字号 */
 }
 
 body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Inter", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
 }
 
 /* Content width refinement */
 .page,
 .post {
-  max-width: 820px; /* narrow reading width */
+  max-width: 820px; /* 阅读宽度 */
 }
 
 /* Headings scale */
 .post h1,
-.page h1 { font-size: 1.8rem; line-height: 1.3; }
+.page h1 { font-size: 1.85rem; line-height: 1.25; font-weight: 700; }
 .post h2,
-.page h2 { font-size: 1.5rem; line-height: 1.35; }
+.page h2 { font-size: 1.45rem; line-height: 1.3; font-weight: 650; }
 .post h3,
-.page h3 { font-size: 1.25rem; line-height: 1.4; }
+.page h3 { font-size: 1.18rem; line-height: 1.35; font-weight: 600; }
 
 /* Paragraph and list spacing */
 .post p,
@@ -34,49 +35,74 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* Links */
+a {
+  color: $link-color;
+  text-underline-offset: 2px;
+}
+
+a:hover { text-decoration: underline; }
+
 /* Navigation / masthead */
 .masthead {
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
+  background-color: mix(#fff, $primary-color, 92%);
+  border-bottom: 1px solid $border-color;
 }
 .masthead__menu a {
-  font-size: 0.95rem;
+  font-size: 0.93rem;
 }
 
 /* Sidebar author widget */
-.author__name { font-size: 1.05rem; }
-.author__bio { font-size: 0.95rem; }
-.author__urls-wrapper { font-size: 0.95rem; }
+.author__name { font-size: 1.0rem; }
+.author__bio { font-size: 0.92rem; }
+.author__urls-wrapper { font-size: 0.9rem; }
 
 /* Post meta */
 .page__meta,
 .page__lead {
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 
 /* Code blocks */
 .highlighter-rouge code,
-code { font-size: 0.9rem; }
+code { font-size: 0.88rem; }
 
 .highlighter-rouge pre,
 pre.highlight {
   border-radius: 6px;
+  background: $code-background-color;
 }
 
 /* Blockquote */
 blockquote {
-  font-size: 1rem;
-  border-left-width: 4px;
+  font-size: 0.98rem;
+  border-left-width: 3px;
+  border-left-color: $primary-color;
+  background: mix(#fff, $primary-color, 97%);
 }
 
-/* Cards / notices */
+/* Notices */
 .notice {
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   border-radius: 8px;
 }
 
 /* Footer */
-.page__footer { font-size: 0.95rem; }
+.page__footer { font-size: 0.9rem; }
+
+/* Icons */
+.icon { color: $text-color; }
+.social-icons .fab,
+.social-icons .fas,
+.social-icons .far { color: $text-color; }
+.social-icons a:hover { color: $primary-color; }
+
+/* Buttons (minor tweak) */
+.btn, a.btn {
+  border-radius: 6px;
+}
 
 /* Responsive tweaks */
 @media (max-width: 1024px) {
@@ -84,8 +110,8 @@ blockquote {
   .post { max-width: 760px; }
 }
 @media (max-width: 768px) {
-  html { font-size: 14.5px; }
+  html { font-size: 14px; }
   .page,
   .post { max-width: 92%; }
-  .masthead__menu a { font-size: 0.93rem; }
+  .masthead__menu a { font-size: 0.9rem; }
 } 

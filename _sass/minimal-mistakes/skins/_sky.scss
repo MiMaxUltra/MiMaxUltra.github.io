@@ -1,0 +1,34 @@
+$gray: #7a8288 !default;
+$dark-gray: mix(#000, $gray, 50%) !default;
+$darker-gray: mix(#000, $gray, 60%) !default;
+$light-gray: mix(#fff, $gray, 50%) !default;
+$lighter-gray: mix(#fff, $gray, 90%) !default;
+
+$background-color: #ffffff !default;
+$code-background-color: #f6faff !default;
+$code-background-color-dark: #eaf4ff !default;
+$text-color: #333a40 !default; // 深灰，提升可读性
+$muted-text-color: mix(#fff, $text-color, 20%) !default;
+$border-color: #e6f2ff !default;
+$form-background-color: #f3f8ff !default;
+$footer-background-color: #f0f7ff !default;
+
+$primary-color: #3aa0ff !default; // 浅蓝主色
+$success-color: #1f9d55 !default;
+$warning-color: #d67f05 !default;
+$danger-color: #ee5f5b !default;
+$info-color: #2f86eb !default;
+$focus-color: $primary-color !default;
+$active-color: mix(#fff, $primary-color, 80%) !default;
+
+/* fonts */
+$global-font-family: "Inter", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif !default;
+$header-font-family: $global-font-family !default;
+
+/* links */
+$link-color: #2f86eb !default;
+$link-color-hover: #1d6fd1 !default;
+$link-color-visited: #3a7dd9 !default;
+$masthead-link-color: $primary-color !default;
+$masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+$navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default; 
